@@ -8,6 +8,7 @@ import Chemicals from "./components/Pages/Chemicals";
 import Products from "./components/Pages/Products";
 import Tools from "./components/Pages/Tools";
 import Services from "./components/Pages/Services";
+import ContactUs from "./components/Pages/ContactUs";
 
 function App() {
   return (
@@ -17,11 +18,13 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
+          <Route path="/contact-us" component={ContactUs} />
 
           <Route path="/products" component={Products} />
           <Route path="/equipment" component={Equipment} />
           <Route path="/chemicals" component={Chemicals} />
-          <Route path="/tools" component={Tools} />
+          {/* <Route path="/tools" component={ContactUs} />
+          <Route path="/" component={Tools} /> */}
         </Switch>
       </Router>
     </>

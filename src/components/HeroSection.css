@@ -14,16 +14,17 @@ video {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
   object-fit: contain;
 }
 
-.hero-container > h3 {
+.hero-container > h2 {
   color: #fff;
-  font-size: 20px;
-  margin-top: -300px;
+  font-size: 30px;
+  margin-top: -450px;
   font-family: "Diplomata SC", cursive;
   font-weight: normal;
+  text-align: center;
 }
 
 .hero-container > p {
@@ -41,6 +42,7 @@ video {
 
 .hero-btns .btn {
   margin: 6px;
+  margin-top: 50px;
 }
 
 .fa-play-circle {

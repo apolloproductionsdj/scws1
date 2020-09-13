@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <p className="footer-subscription-heading">
           Join the Adventure newsletter to receive our best vacation deals
         </p>
@@ -24,12 +24,12 @@ function Footer() {
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
         </div>
-      </section>
+      </section> */}
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
+            <Link to="/about-us">How it works</Link>
             <Link to="/">Testimonials</Link>
             <Link to="/">Careers</Link>
             <Link to="/">Investors</Link>
@@ -39,17 +39,17 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to="/">Contact</Link>
             <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/">Locations</Link>
+            <Link to="/">Mobile</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <Link to="/">On-Site</Link>
+            <Link to="/">Install</Link>
+            <Link to="/">Service</Link>
+            <Link to="/">Tear-Down</Link>
           </div>
           <div class="footer-link-items">
             <h2>Social Media</h2>
@@ -64,11 +64,11 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              TRVL
+              SCWS
               <i class="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">TRVL © 2020</small>
+          <small class="website-rights">SCWS © 2020</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
